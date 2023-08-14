@@ -1,21 +1,3 @@
-// import React, { Component } from 'react';
-// import { View, Text, StyleSheet, checkBox, TouchableOpacity, ActivityIndicator } from 'react-native';
-
-// export default class Home extends Component {
-//   constructor() {
-//     super()
-//   }
-
-
-//   render() {
-//     return (
-//       <View style={Styles.container}>
-//         <ActivityIndicator />
-//       </View>
-//     )
-//   }
-// }
-
 import React, { useEffect, useState } from 'react';
 import { View, Text } from 'react-native';
 import axios from 'axios';

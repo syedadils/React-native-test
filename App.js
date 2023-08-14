@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import SplashScreen from './components/SplashScreen';
-import HomeScreen from './components/HomeScreen';
+// import HomeScreen from './components/HomeScreen';
 
 
 const App = () => {
@@ -14,7 +14,6 @@ const App = () => {
 
             <Stack.Navigator initialRouteName="SplashScreen">
             <Stack.Screen name="Home" component={SplashScreen} />
-            <Stack.Screen name="books" component={HomeScreen} />
 
 
             </Stack.Navigator>

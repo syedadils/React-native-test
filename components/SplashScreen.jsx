@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { TextInput, View } from 'react-native';
+import { View, ActivityIndicator } from 'react-native';
 import Entypo from '@expo/vector-icons/Entypo';
 import * as SplashScreen from 'expo-splash-screen';
 import * as Font from 'expo-font';
@@ -40,10 +40,10 @@ export default function App() {
 
   return (
     <View
-      style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}
+      style={{ flex: 1, alignItems: 'center', justifyContent: 'center', width: '60px' }}
       onLayout={onLayoutRootView}>
+         <ActivityIndicator />
     </View>
 
   );
 }
-
